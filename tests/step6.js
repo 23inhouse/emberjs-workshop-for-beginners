@@ -3,7 +3,7 @@
 
   1.) Go to the project template and add a link to archive a project. Use the html below
 
-    <button class="tiny round project-archive-button">Archive</button>
+    <button class="tiny round project-archive-button" {{action archive}}>Archive</button>
 
   2.) Add an action to the ProjectController to make the isArchive flag of a project to true
 
