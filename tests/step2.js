@@ -6,7 +6,7 @@
     <p>
       Discourse is the 100% open source, next-generation discussion platform built for the next decade of the Internet
     </p>
-    <a href="#" class="tiny button round project-link"}}More</a>
+    <a href="#" class="tiny button round project-link">More</a>
   </div>
 
   <div class="large-4 medium-4 columns project-block">
@@ -14,7 +14,7 @@
     <p>
       Travis CI is a hosted continuous integration service for the open source community. It is integrated with GitHub
     </p>
-    <a href="#" class="tiny button round project-link"}}More</a>
+    <a href="#" class="tiny button round project-link">More</a>
   </div>
 
   <div class="large-4 medium-4 columns project-block">
@@ -22,7 +22,7 @@
     <p>
       TodoMVC - a project which offers the same Todo application implemented using MV* concepts in most of the popular JavaScript MV* frameworks of today
     </p>
-    <a href="#" class="tiny button round project-link"}}More</a>
+    <a href="#" class="tiny button round project-link">More</a>
   </div>
 
 **/
