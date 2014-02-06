@@ -4,10 +4,9 @@
   2. Create a new project handlebars template and use the HTML below
 
   <div class="large-4 medium-4 columns project-block-info">
-    <h3><a href="http://www.discourse.org/">Discourse</a></h3>
+    <h3><a href="">Project Title</a></h3>
     <p>
-      Discourse is the 100% open source, next-generation discussion platform built
-      for the next decade of the Internet
+      Project description
     </p>
     <a href="#/" class="tiny button round">Back</a>
   </div>

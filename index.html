@@ -36,6 +36,16 @@
       {{/each}}
     </script>
 
+    <script type="text/x-handlebars" id="project">
+      <div class="large-4 medium-4 columns project-block-info">
+        <h3><a {{bindAttr href=url}}>{{name}}</a></h3>
+        <p>
+          {{description}}
+        </p>
+        <a href="#/" class="tiny button round">Back</a>
+      </div>
+    </script>
+
     <script src="js/libs/jquery-1.10.2.js"></script>
     <script src="js/libs/handlebars-1.1.2.js"></script>
     <script src="js/libs/ember-1.3.1.js"></script>
