@@ -1,5 +1,11 @@
 /*
   TODO: Add projects dynamically to the index template using fixtures
+
+  Use each helper to define the project block dynamically
+
+  {{#each}}
+    <!-- Project Block -->
+  {{/each}}
 */
 
 step("3", "Router and Routes");
