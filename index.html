@@ -31,7 +31,7 @@
           <p>
             {{description}}
           </p>
-          <a href="#" class="tiny button round project-link">More</a>
+          {{#link-to 'project' this class='tiny button round project-link'}}More{{/link-to}}
         </div>
       {{/each}}
     </script>
