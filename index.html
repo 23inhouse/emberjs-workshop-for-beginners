@@ -10,43 +10,6 @@
   </head>
   <body>
     <!-- Welcome to Ember.js Beginners Workshop -->
-    <script type="text/x-handlebars" id="application">
-      <div class="row">
-        <div class="large-12 columns">
-          <h1>Welcome to Ember.js Project Directory</h1>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="large-12 columns">
-          {{outlet}}
-        </div>
-      </div>
-    </script>
-
-    <script type="text/x-handlebars" id="index">
-      {{#each}}
-        <div class="large-4 medium-4 columns project-block">
-          <h3>{{name}}</h3>
-          <p>
-            {{description}}
-          </p>
-          {{#link-to 'project' this class='tiny button round project-link'}}More{{/link-to}}
-        </div>
-      {{/each}}
-    </script>
-
-    <script type="text/x-handlebars" id="project">
-      <div class="large-4 medium-4 columns project-block-info">
-        <h3><a {{bindAttr href=url}}>{{name}}</a></h3>
-        <p>
-          {{description}}
-        </p>
-        <a href="#/" class="tiny button round">Back</a>
-        <a {{bindAttr href=url}} class="tiny button round project-website-link">Website</a>
-        <button {{action 'archive-project'}} class="tiny round project-archive-button">Archive</button>
-      </div>
-    </script>
 
     <script src="js/libs/jquery-1.10.2.js"></script>
     <script src="js/libs/handlebars-1.1.2.js"></script>
